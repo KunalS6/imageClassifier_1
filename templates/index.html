@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title> Image processing app in flask</Title>
+        <!-- bootstrap 4 -->
+        <link rel="stylesheet" href="/static/css/bootstrap.css">
+        <script src="/static/js/bootstrap.js"></script>
+        <script src="/static/js/bootstrap.bundle.js"></script>
+        <script src="/static/js/jquery-3.7.1.js"></script>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light " style="background-color:  #17a589  ;">
+            <a class="navbar-brand" href="#">Image Classifier</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="/" style="color: azure;">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/about/"style="color: azure;">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"style="color: azure;">Offer</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" style="color: azure;" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown link
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        
+        <div class="container">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h3>Welcome to image processing app</h3>
+            <br>
+            <br>
+        </div>
+
+        {% block body %}
+        {% endblock  %}
+
+
+        
+        <!-- Footer-->
+        <div class="container">
+            <hr>
+            <footer>
+                Developed by Kunal <a href="samantakunal6@gmail.com">contact detail</a>
+            </footer>
+        </div>
+    </body>
+
+
+</html>
